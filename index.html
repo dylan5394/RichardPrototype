@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Richard Prototype</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/vendor/angular.min.js"></script>
+	<script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
+	<script src="/bower_components/ngmap/build/scripts/ng-map.min.js"></script>
+	<script src="/bower_components/angular-google-places-autocomplete/src/autocomplete.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9TnIJUnlUYgsFUv_ZprsqARJYv_kVRIA&libraries=places"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/
+css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="/bower_components/angular-google-places-autocomplete/src/autocomplete.css">
+	<link type="text/css" rel="stylesheet" href="/css/stylesheet.css"/>
+</head>
+
+<body ng-app="RichardPrototype">
+
+<nav class="navbar navbar-default" style="margin-bottom:0;padding-left:0;">
+  <div class="container-fluid" style="margin-bottom:0;padding-left:0;">
+    <div class="navbar-header" style="margin-bottom:0;padding-left:0;">
+    	<div class="container" style="margin-bottom:0;padding-bottom:0;padding-left:0px">
+      <a class="navbar-brand" href="#/">
+        <p style="padding-left:150px;">DANDY FACTORY</p>
+      </a>
+  </div>
+    </div>
+  </div>
+</nav>
+
+<div ng-view></div>
+
+<!-- Modules -->
+<script type="text/javascript" src="js/app.js"></script>
+
+<!-- Controllers -->
+<script type="text/javascript" src="js/controllers/HomeController.js"></script>
+<script type="text/javascript" src="js/controllers/MapController.js"></script>
+<script type="text/javascript" src="js/controllers/FormController.js"></script>
+
+<!-- Services -->
+
+</body>
+</html>
+

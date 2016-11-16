@@ -1,0 +1,42 @@
+#map-div {
+
+	padding: 40px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-top: 10px;
+}
+
+#catch-phrase {
+
+	position: fixed;
+	float: left;
+	margin-left: 150px;
+	margin-top:75px;
+	width:400px;
+}
+
+.image-section {
+
+	background: url("/images/relaxinghomephoto.jpeg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position:relative;
+	height:800px;
+	opacity:1;
+}
+
+.navbar {
+
+	margin-bottom: 0px;
+}
+
+.map-prompts {
+	
+	text-align: center;
+}

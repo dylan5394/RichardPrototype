@@ -1,0 +1,9 @@
+<div id="map-div" style="padding-left:150px; padding-right:150px; align-items:center; text-align:center;">
+	<ng-map center="[{{ lat }}, {{ lng }}]" dragged="false">
+		<marker position="[{{ lat }}, {{ lng }}]"></marker>
+	</ng-map>
+	<p class="map-prompts">Is this the correct address?</p>
+	<p class="map-prompts">{{ address.formattedAddress }}</p>
+	<a class="btn btn-primary" href="#/" role="button">Yes, that's correct</a>
+	<a class="btn btn-secondary" href="#/form/" role="button">No, fix it</a>
+</div>

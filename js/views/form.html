@@ -1,0 +1,31 @@
+<div class="container">
+<div class="row">
+  <div class="col-lg-6">
+      <div class="container">
+        <h2 style="color:#4c4c4c">What's your address?</h2>
+      </div>
+    	<form class="input-group" ng-submit="setAddress()">
+
+        <div class="container">
+      		<input type="text" class="form-control" placeholder="Street Address" ng-model="street"></input>
+        </div>
+        <div class="container">
+      		<input type="text" class="form-control" placeholder="Unit Number" ng-model="unit"></input>
+      	</div>
+        <div class="container">
+          <input type="text" class="form-control" placeholder="City" ng-model="city"></input>
+      	</div>
+        <div class="container">
+          <input type="text" class="form-control" placeholder="State" ng-model="state"></input>
+      	</div>
+        <div class="container">
+          <input type="text" class="form-control" placeholder="Postal Code" ng-model="zip"></input>
+        </div>
+      		<div class="container"> 
+        		<button class="btn btn-primary" type="submit">Continue</button>
+				    <a class="btn btn-secondary" href="#/" role="button">Cancel</a>
+      		</div>
+    	</form>
+  </div>
+</div>
+</div>
